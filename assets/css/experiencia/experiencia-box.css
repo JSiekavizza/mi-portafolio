@@ -1,0 +1,41 @@
+.experience__box{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+@media screen and (min-width:0) {
+    .experience__box{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+}
+
+@media screen and (min-width:768px) {
+    .experience__box{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+.experience__section__title{
+    text-align: center;
+}
+
+
+
+
+@media screen and (min-width:0) {
+    .experience__img{
+        width: 400px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .experience__img{
+        width: 600px;
+    }
+}
